@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+    mavenCentral();
+}
+
+dependencies {
+    compile "com.intellij:forms_rt:7.0.3"
+}
+
+mainClassName = "Main"
